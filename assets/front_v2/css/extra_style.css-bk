@@ -1,0 +1,540 @@
+/*++++++++++++++++ Login ++++++++++++++++++*/
+
+.login{background: #eaedf4; padding: 3rem 0;}
+.login_box{ background: #fff; width: 60%; margin: 0 auto; padding: 4rem 8rem;}
+.login_box h2{color: #47525e; font-size: 2.5rem;}
+.login_box p{ color: #8a98ab; font-size: 1.1rem; font-weight: 300;}
+.login_box h3{color: #47525e;font-size: 1.8rem;margin-bottom: 2rem;}
+.login_box h3 a{color: #47525e; font-size: 1.8rem; padding: 0 0.5rem; }
+.login_box h3 a:hover{color: #3b769b;}
+.login_box form{ width: 80%; margin:0 auto;}
+.login_box .form-control{font-size: 1.1rem;line-height: 2.5; border-radius: 6px;}
+.login_box .sumt{ display: block; width: 100%;background: #3b769b; border: 1px solid #3b769b;padding: 0.8rem 1.5rem; font-size: 1.1rem;border-radius: 6px; margin-bottom: 1rem;}
+.fwrpas{color: #8a98ab; font-size:0.9rem; font-weight: 300;}
+
+
+
+.voor{padding: 3rem 0;}
+.voor h1{ font-size: 2.3rem; color: #3b769b; margin-bottom: 3rem;}
+.stad{ width: 80%; text-align: center;}
+.stad h2{ text-align: center; margin-bottom: 1.5rem; font-size: 1.8rem;  color: #47525e;}
+.stad .form-group{ margin-bottom: 0;}
+.stad .form-control{font-size: 1.1rem;line-height: 2.1; border-radius: 6px;}
+.stad .form-group select{font-size: 1.1rem; height: 50px !important;}
+#dLabel {
+    width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: solid 1px #ced4da;
+  text-align: left;
+	padding: 7.5px 15px;
+  color: #677079;
+	font-size: 1.1rem;
+  
+ 
+}
+
+ .stdr .caret {
+    float: right;
+    display: block;
+  }
+
+ .stdr .dropdown-menu {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+ .stdr .dropdown button:hover, .dropdown button:focus {
+  border: none;
+  outline: 0;
+}
+
+ .stdr .dropdown.open button#dLabel {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+ 
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  border: solid 1px #666;
+   border-bottom: none;
+}
+
+ .stdr .dropdown.open ul {
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  border: solid 1px #666;
+  border-top: none;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+ .stdr .dropdown-menu li {
+ 
+     line-height: 1.5;
+  letter-spacing: 0.7px;
+  color: #666;
+    font-size: 14px;
+  cursor: pointer;
+  padding: 7.5px 15px;
+  border-top: solid 1px #f3f3f3;
+
+}
+
+ .stdr .dropdown-menu li:hover {
+  background-color: #ccc;
+}
+
+.submt{ background: #3b769b; border: 1px solid #3b769b;padding: 0.8rem 1.5rem;}
+
+/*++++++++++++++++ Sucess ++++++++++++++++++*/
+
+.sucess{padding: 4rem 0 10rem 0;}
+.uwp h2{ font-size: 2.3rem; color: #3b769b; margin-bottom: 6rem;}
+.uwp h2 i{ color: #4fad49; padding-right: 1rem;}
+.uwp h3{margin-bottom: 2rem; font-size: 1.5rem; color: #47525e;}
+.uwp a{ color: #000; font-size: 3.5rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*++++++++++++++++ Inbox ++++++++++++++++++*/
+.inbox{padding: 3rem 0;}
+#no-more-tables{ width: 100%;}
+.tabrx{ width: 100%;margin-bottom: 0;border: 1px solid #dee2e6;}
+.tabrx th{padding: 1rem 1rem; font-size: 1.1rem; font-weight: 400;}
+.tabrx td{padding: 1rem 1rem; font-size: 1rem; font-weight: 300;}
+.tabrx td i{ font-size: 2rem;}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0,0,0,.05);
+}
+.table-striped tbody tr:nth-of-type(odd){ background: #fff;}
+.inbox h2{ font-size: 2.3rem;color: #3b769b;margin-bottom: 3rem;}
+.inbox h3{ margin-bottom: 1rem; font-size: 1.5rem;  color: #3b769b;}
+@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 1px solid #ccc; }
+ 
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+		
+	}
+ 
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 14px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+		overflow: hidden;
+  		text-overflow: ellipsis;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); }
+}
+/*++++++++++++++++ calendar Start ++++++++++++++++++*/
+
+
+
+div.zabuto_calendar {
+    margin: 0;
+    padding: 0;
+}
+
+div.zabuto_calendar .table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+	border: 1px solid #ccc;
+}
+.calendar-month-header{border-bottom: 1px solid #ccc;}
+
+div.zabuto_calendar .table th,
+div.zabuto_calendar .table td {
+    padding: 4px 4px;
+    text-align: center;
+	border: none;
+}
+
+div.zabuto_calendar .table tr th,
+div.zabuto_calendar .table tr td {
+    background-color: #ffffff;
+}
+
+div.zabuto_calendar .table tr.calendar-month-header th {
+    background-color: #ffffff;
+}
+
+div.zabuto_calendar .table tr.calendar-month-header th span {
+    cursor: pointer;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+div.zabuto_calendar .table tr.calendar-dow-header th {
+    background-color: #fff;
+}
+
+div.zabuto_calendar .table tr:last-child {
+    border-bottom: 1px solid #dddddd;
+}
+
+div.zabuto_calendar .table tr.calendar-month-header th {
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+div.zabuto_calendar .table-bordered tr.calendar-month-header th {
+    border-left: 0;
+    border-right: 0;
+}
+
+div.zabuto_calendar .table-bordered tr.calendar-month-header th:first-child {
+    border-left: 1px solid #dddddd;
+}
+
+div.zabuto_calendar div.calendar-month-navigation {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+div.zabuto_calendar tr.calendar-dow-header th,
+div.zabuto_calendar tr.calendar-dow td {
+    width: 14%;
+}
+
+div.zabuto_calendar .table tr td div.day {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;background: #dfe6ee;
+}
+
+/* actions and events */
+div.zabuto_calendar .table tr td.event div.day,
+div.zabuto_calendar ul.legend li.event {
+    background-color: #8291a8;
+}
+
+div.zabuto_calendar .table tr td.dow-clickable,
+div.zabuto_calendar .table tr td.event-clickable {
+    cursor: pointer;
+}
+
+/* badge */
+div.zabuto_calendar .badge-today,
+div.zabuto_calendar div.legend span.badge-today {
+    background-color: #357ebd;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+div.zabuto_calendar .badge-event,
+div.zabuto_calendar div.legend span.badge-event {
+    background-color: #ff9b08;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+div.zabuto_calendar .badge-event {
+    font-size: 0.95em;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+}
+
+/* legend */
+div.zabuto_calendar div.legend {
+    margin-top: 5px;
+    text-align: right;
+}
+
+div.zabuto_calendar div.legend span {
+    color: #999999;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+div.zabuto_calendar div.legend span.legend-text:after,
+div.zabuto_calendar div.legend span.legend-block:after,
+div.zabuto_calendar div.legend span.legend-list:after,
+div.zabuto_calendar div.legend span.legend-spacer:after {
+    content: ' ';
+}
+
+div.zabuto_calendar div.legend span.legend-spacer {
+    padding-left: 25px;
+}
+
+div.zabuto_calendar ul.legend > span {
+    padding-left: 2px;
+}
+
+div.zabuto_calendar ul.legend {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+div.zabuto_calendar ul.legend li {
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    margin-left: 5px;
+}
+
+div.zabuto_calendar ul.legend
+div.zabuto_calendar ul.legend li:first-child {
+    margin-left: 7px;
+}
+
+div.zabuto_calendar ul.legend li:last-child {
+    margin-right: 5px;
+}
+
+div.zabuto_calendar div.legend span.badge {
+    font-size: 0.9em;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+div.zabuto_calendar div.legend{display: none;}
+
+
+/* responsive */
+@media (max-width: 979px) {
+    div.zabuto_calendar .table th,
+    div.zabuto_calendar .table td {
+        padding: 2px 1px;
+    }
+}
+
+
+.round {
+  position: relative;
+	    padding-left: 4%;
+    font-size: 1.3rem;
+	    margin-bottom: 1.2rem;
+}
+
+.round label {
+  background-color: #fff;
+  border: 2px solid #8492a6;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #47525e;
+  border-color: #47525e;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+.totaal{border: 1px solid #ccc; width: 100%;font-size: 1.5rem;}
+.totaal td{ padding:2rem;}
+
+.table .thead-light th span{ font-size: 0.9rem; display: block;}
+.tabrx td + td{ text-align: left;}
+.tabrx td + td + td{ text-align: center;}
+
+.totals{ width: 100%;font-size: 1.5rem; background: #cddce6;color: #495057;}
+.totals td{ padding: 1rem 3rem;}
+.totals td + td{ text-align: right;}
+.vattotal{ width: 100%;font-size: 1.5rem; background: #99c8d0;color: #495057;}
+.vattotal td{ padding: 0 3rem; line-height: 2.5rem;}
+.vattotal td + td{ text-align: right;}
+.brntext{ width: 100%; border: 1px solid #ccc; border-radius: 6px; padding: 5px;}
+.brntext p{ color: #8291a6; font-size: 1.1rem; font-weight: 300;}
+
+.prdt{ margin-bottom: 3rem;min-height: 400px;}
+.prdt h2{font-size: 1.5rem; color: #47525e; font-weight: 500;}
+.prdt h3{font-size: 1.3rem; color: #47525e; font-weight: 400;}
+.prdt .stdr{ width: 80%;}
+.prdt p{ margin-bottom: 0; font-size: 1.3rem; padding: 0.5rem 0;}
+s
+/*++++++++++++++++ avne ++++++++++++++++++++++++*/
+.avne{}
+.avne h2{ font-size: 1.6rem; color: #47525e; padding: 1rem 0;min-height: 92px;}
+.avne p{ font-size: 1.1rem; color: #8190a5; font-weight: 300; line-height:1.9rem;} 
+
+/*++++++++++++++++ ga Door +++++++++++++++++*/
+
+.gadoor h2{ font-size: 2.3rem; color: #3b769b; margin-bottom: 1rem;}
+.gadoor h3{margin-bottom: 3rem; font-size: 1.5rem; color: #47525e;}
+.gadoor table{width: 80%;}
+.gadoor table td{ font-size: 1rem;}
+.gadoor .table-striped tbody tr:nth-of-type(odd) {
+    background: #eff2f7;
+}
+.gadoor .table-striped tbody tr:nth-of-type(even) {
+    background-color: #cdeae5;
+}
+/*++++++++++++++++++++ invoice +++++++++++++++++++*/
+
+.invoice table{ margin-bottom: 0; font-size: 1rem;}
+.invoice2 table{margin-bottom: 0; font-size: 1.2rem; }
+.invoicen {margin-bottom: 0; font-size: 1rem;}
+.invoicen td{padding: 0 0.4rem;}
+.card .card-body h6{ font-size: 1.6rem; text-transform: uppercase;}
+.invoicelast{ margin-top: 3rem;}
+.invoicelast td{border-top: none;}
+
+
+
+
+
+/******************vishal******************************************/
+
+
+.logo_one{ margin:0 0 8px;}
+.im{ margin:30px 0 0 0;}
+.box img{ width:100%;}
+.searc_holder{ width:100%; padding:50px 50px; box-shadow:11px 11px 20px rgba(0,0,0,0.1);}
+.search input[type="text"]{ width:100%; padding:0 5px; height:50px; box-shadow:inset 0 0 3px rgba(0,0,0,0.3); color:#5a6978; font-size:14px;font-family: 'Roboto', sans-serif; border-radius:3px 3px 3px 3px;}
+.search{ margin:27px 0 0 0;}
+.search textarea{ width:100%; padding:5px 5px; height:180px; box-shadow:inset 0 0 3px rgba(0,0,0,0.3); color:#5a6978; font-size:14px;font-family: 'Roboto', sans-serif; border-radius:3px 3px 3px 3px;}
+
+.search input[type="submit"]{ width:100%; padding:0 5px; height:44px; background:#3d769a; color:#fff; font-size:16px;font-family: 'Roboto', sans-serif; border-radius:3px 3px 3px 3px; text-align:center; line-height:43px; cursor:pointer;}
+
+
+
+.address{ margin:0 0 25px;}
+.address h5{font-size:17px;font-family: 'Roboto', sans-serif; color:#47525e; }
+.address p{font-size: 1.1rem;
+color: #8190a5;
+font-weight: 300;
+}
+.address img{ width:30px; height:34px; float:left;} 
+.two_one{font-size:21px;font-family: 'Roboto', sans-serif; color:#47525e; }
+.fa-user-circle-o{ font-size:55px !important;}
+.st{width: 114px;margin: 14px 11px;}
+#barChart{ margin:30px 0 0 0;}
+.ver{font-family: 'Roboto', sans-serif; font-size:20px; text-align:center; padding:30px 0; color:#4f5965;}
+
+.total{font-family: 'Roboto', sans-serif; font-size:30px; text-align:center; padding:30px 0; color:#4f5965;}
+
+
+
+.mynewmenu .stad{font-size:24px; padding:10px; font-weight:bold;}
+.mynewmenu .user{ color:#000;	}
+.mynewmenu .dropdown-toggle::after{ display:none !important;}
+ .navbar-expand-md .navbar-nav .dropdown-menu{ right:0; margin:5px 0 0 0;}
+ 
+ 
+ 
+ 
+ 
+ 
+ @media only screen and (max-width: 800px) {
+	 
+.login_box{ width:100%;}	
+.sub input[type="text"] {
+    width: 51%  !important;
+}
+.line_one{ display:none !important;}
+.sub input[type="submit"]{width: 33% !important;}
+#innerbanner{padding:42px 0 25px;}
+.search_holder input[type="text"]{width: 80%;}
+.selectMultiple{width: 80%;}
+.text_area textarea { width:90%;}
+.text_inner_miss{ width:100%;}
+ }
+ 
+ @media only screen and (max-width: 411px) {
+.login_box{ padding:4rem 0rem !important;}
+.text_area textarea{width: 85%;}
+	 
+ }
+ 
+ 
+  @media only screen and (max-width: 384px) {
+.login_box{ padding:4rem 0rem !important;}
+.text_area textarea{width: 85%;}	 
+ }
+ 
+ 
+   @media only screen and (max-width: 375px) {
+.login_box{ padding:4rem 0rem !important;}	
+.text_area textarea{width: 85%;} 
+ }
+ 
+   @media only screen and (max-width: 360px) {
+.login_box{ padding:4rem 0rem !important;}
+.text_area textarea{width: 85%;}	 
+ }
+ 
+    @media only screen and (max-width: 320px) {
+.login_box{ padding:4rem 0rem !important;}
+.text_area textarea{width: 85%;}	 
+ }

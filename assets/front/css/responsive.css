@@ -1,0 +1,127 @@
+/* lg */ 
+@media (min-width: 1200px) {
+	
+	
+	
+	
+	
+}
+
+@media (max-width: 991px){
+     button.navbar-toggler {
+		    position: absolute;
+		    right: 15px;
+		    top: 24px;
+		}
+}
+
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	
+	 .dropdown:hover .dropdown-menu {
+
+      display: block;
+
+      -webkit-animation: fadeInUp 400ms;
+
+      animation: fadeInUp 400ms;
+
+  }
+
+
+
+  .navbar-nav > li {
+
+    margin-left: 0;
+
+  }
+
+
+
+  .navbar-collapse {
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+  }
+
+		
+
+}
+
+	
+		
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	
+	 .dropdown:hover .dropdown-menu {
+
+      display: block;
+
+      -webkit-animation: fadeInUp 400ms;
+
+      animation: fadeInUp 400ms;
+
+  }
+
+
+
+  .navbar-collapse {
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+  }
+
+
+
+  .navbar-nav > li {
+
+    margin-left: 0;
+
+  }
+
+	
+
+	
+	
+}
+
+
+
+/* xs */
+@media (max-width: 767px) {
+	.profi{padding: 10px 16px;}
+	.voor h1{text-align: center;}
+	/* .stad{ width: 100%; margin: 0 auto !important;margin-bottom: 2rem !important;} */
+	.login_box{ width: 90%; margin: 0 auto;padding:3rem 15px;	}
+	.login_box h3{font-size: 1rem;}
+	.login_box h3 a{font-size: 1.2rem;}
+	.round{padding-left:4%;font-size: 0.9rem;}
+	.round label{ width: 20px; height: 20px;}
+	.round label:after{left: 3px; top: 4px;}
+	.totals td, .vattotal td{ padding: 1rem; font-size: 1rem; line-height: normal;}
+	.mwdt {width: 70%;}
+	.gadoor table{ width: 100%;}
+	.invoicelast td {border-top: none;width: 100%;display: block; font-size: 1rem; line-height: 2rem;}
+	
+	
+	
+}
+
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+
+}
+
+
+
